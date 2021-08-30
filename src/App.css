@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "ONEMobilePOP";
+  src: url("./styles/fonts/ONE-MOBILE-POP.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "WemakerR";
+  src: url("./styles/fonts/Wemakeprice-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "WemakerSB";
+  src: url("./styles/fonts/Wemakeprice-SemiBold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

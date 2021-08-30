@@ -1,0 +1,152 @@
+.JavaScript:hover {
+  color: #f7cf00;
+}
+.React:hover {
+  color: #00d1f7;
+}
+.HTML:hover {
+  color: #f75421;
+}
+.CSS:hover {
+  color: #2862e9;
+}
+.Scss:hover {
+  color: #c76495;
+}
+.Node:hover {
+  color: #87bf00;
+}
+.Java:hover {
+  color: #4c7491;
+}
+.Bootstrap:hover {
+  color: #6438b1;
+}
+
+.gradation {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #e4eefc, #e9d1e1);
+  background-size: cover;
+  animation: AnimationName 60s ease infinite;
+  position: absolute;
+  z-index: 2;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.gradation_react {
+  background: linear-gradient(-45deg, #43b4e9, #3f7c92, #37f8cb);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+.gradation_js {
+  background: linear-gradient(-45deg, #ffbb00, #696644, #ffd000);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+.gradation_html {
+  background: linear-gradient(-45deg, #d13007, #e0b75e, #ff3c00);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+.gradation_css {
+  background: linear-gradient(-45deg, #a8d2e6, #131c70, #4d71e7);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+.gradation_scss {
+  background: linear-gradient(-45deg, #f5c5f7, #972a77, #d6ade0);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+.gradation_node {
+  background: linear-gradient(-45deg, #46af00, #4d4c11, #a6ff00);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+.gradation_java {
+  background: linear-gradient(-45deg, #212c31, #99bcc9, #4e5c75);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+.gradation_bootstrap {
+  background: linear-gradient(-45deg, #5f26aa, #8685a8, #5900ff);
+  background-size: 400% 200%;
+  animation: AnimationName 8s ease infinite;
+  height: 100px;
+}
+
+.jsbar .progress-bar {
+  background-color: #f7cf00;
+}
+.reactbar .progress-bar {
+  background-color: #00d1f7;
+}
+.htmlbar .progress-bar {
+  background-color: #f75421;
+}
+.cssbar .progress-bar {
+  background-color: #2862e9;
+}
+.scssbar .progress-bar {
+  background-color: #c76495;
+}
+.nodebar .progress-bar {
+  background-color: #87bf00;
+}
+.javabar .progress-bar {
+  background-color: #4c7491;
+}
+.bootbar .progress-bar {
+  background-color: #6438b1;
+}
