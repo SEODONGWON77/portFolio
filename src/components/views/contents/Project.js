@@ -128,7 +128,7 @@ function Project() {
                 </p>
                 <hr style={{ textAlign: "left", margin: "30px" }} />
                 <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
-                  도메인 :{" "}
+                <span style={{ fontWeight: "bolder" }}>도메인 : </span>
                   <span
                     onClick={() => {
                       window.open("https://eatsfine.site", "_blank");
