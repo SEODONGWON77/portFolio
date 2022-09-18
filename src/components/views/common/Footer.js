@@ -1,12 +1,20 @@
-import React from 'react';
+import React from "react";
+import styled from "styled-components";
 
 function Footer() {
+  const FooterDiv = styled.div`
+    background-color: #635f5e;
+  `;
+  const ContentDiv = styled.div`
+    padding: 50px;
+  `
   return (
-    <div id='footer'>
-      <hr/>
+    <FooterDiv id="footer">
+      <ContentDiv>
       <h1>Footer입니다.</h1>
-    </div>
-  )
+      </ContentDiv>
+    </FooterDiv>
+  );
 }
 
-export default Footer
+export default Footer;

@@ -19,7 +19,7 @@ function Landing() {
     <StyledLandingDiv>
       <MainImage />
       <About />
-      <Skill />
+      <Skill />    
       <Project />
       <Contact />
     </StyledLandingDiv>

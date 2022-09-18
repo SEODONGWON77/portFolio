@@ -52,6 +52,7 @@ const StyledBox = styled.div`
   }
 `;
 const StyledLink = styled.a`
+  cursor: pointer;
   color: hsla(0, 0%, 100%, 0.75);
   align-items: flex-end;
   font-size: 18px;
@@ -103,6 +104,14 @@ function Header() {
     window.addEventListener("scroll", updateScroll);
   }, [scrollPosition]);
 
+  function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0,
+      behavior: "smooth",
+    });
+  }
+
   return (
     <StyledHeaderDiv style={scrollPosition < 50 ? Scroll0 : Scroll1}>
       <div style={{ maxWidth: "72rem", margin: "0 auto" }}>
@@ -134,7 +143,7 @@ function Header() {
               PROJECT
             </StyledLink>
             <StyledLink
-              href="#contant"
+              onClick={handleScroll}
               style={scrollPosition < 50 ? Scroll0 : Scroll1}
             >
               CONTACT

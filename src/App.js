@@ -11,7 +11,7 @@ function App() {
       <Suspense fallback={<div>Lodading...</div>}>
         <Header />
         <Landing />
-        <Footer />
+        {/* <Footer /> */}
       </Suspense>
     </>
   );

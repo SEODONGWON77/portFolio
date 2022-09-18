@@ -123,7 +123,7 @@ function Skill(props) {
                   Expertise :
                   <Rating value={4} size={"small"} readOnly />
                   <br />
-                  React, ReactHooks, contextAPI, Redux, Styled-Component
+                  React, Next.js, ReactHooks, Redux, Mobx, Styled-Component
                   <ProgressBar
                     now={countOfProgess80}
                     label={`${80}%`}
@@ -247,12 +247,12 @@ function Skill(props) {
             <Col md={3} xs={6}>
               <StyledIcon className="Bootstrap">
                 <FontAwesomeIcon icon={faBootstrap} />
-                <IconText>Bootstrap</IconText>
+                <IconText>CSS-library</IconText>
                 <B className="gradation_bootstrap">
                   Expertise :
                   <Rating name="read-only" value={5} size="small" readOnly />
                   <br />
-                  ReactBootStrap, Ant-Degian, Maturial-UI
+                  ReactBootStrap, Ant-Degian, Maturial-UI, Tailwind-CSS
                   <ProgressBar
                     now={countOfProgess100}
                     label={`${100}%`}

@@ -7,7 +7,7 @@ const StyledProjectInfo = styled.div`
   height: auto;
   float: left;
   padding-top: 5rem;
-  border: 1px solid red;
+  border: 1px solid;
   background-color: white;
   min-height: 300px;
   color: white;
@@ -81,6 +81,151 @@ function Project() {
                   fade
                 >
                   <Carousel.Item>
+                    <Styledimg src="/images/moldManage1.png" alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Styledimg src="/images/moldManage2.png" alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Styledimg src="/images/moldManage3.png" alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Styledimg src="/images/moldManage4.png" alt="" />
+                  </Carousel.Item>
+                </Carousel>
+              </ImageBox>
+            </Col>
+            <Col md={6} xs={12}>
+              <Explain>
+                <ExplainTitle>PHA 금형 관리시스템</ExplainTitle>
+                <p style={{ textAlign: "left", margin: "30px" }}>
+                  금형 관리 통합 시스템 웹 개발(MES)
+                  <br />
+                  총 개발 기간 : 2021.10 ~2022.6
+                  <br />
+                  내용 : 금형의 생산, 점검, 수리, 이동, 일정, 예비품, 사용자 등
+                  전체적으로 관리하는 웹 시스템 구축
+                  <br />
+                  담당업무 : 초기 설계부터 전체 페이지 개발 담당, 개발완료까지
+                  프론트엔드, 백엔드개발 모두 참여, 개발완료 후 추가 요구사항 AS
+                  유지보수 중
+                </p>
+                <hr style={{ textAlign: "left", margin: "30px" }} />
+                <p
+                  style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}
+                ></p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>Front-end : </span>
+                  <span>React, TypeScript, Mobx, Scss, Rechart</span>
+                </p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>Back-end : </span>
+                  <span>C# - asp.net, RestAPI</span>
+                </p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>DataBase : </span>
+                  MSSQL
+                </p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>UI : </span>
+                  Figma
+                </p>
+              </Explain>
+            </Col>
+          </Row>
+        </div>
+        <br />
+        <hr style={{ color: "black", margin: "30px" }} />
+        <br />
+
+        <div
+          style={{
+            backgroundColor: " #e8e3df",
+            color: "black",
+            textAlign: "center",
+            borderRadius: "50px",
+          }}
+        >
+          <Row>
+            <Col md={6} xs={12}>
+              <ImageBox>
+                <Carousel
+                  valiant="dark"
+                  interval={null}
+                  controls={false}
+                  pause={false}
+                  fade
+                >
+                  <Carousel.Item>
+                    <Styledimg src="/images/monitor1.png" alt="" />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <Styledimg src="/images/monitor2.png" alt="" />
+                  </Carousel.Item>
+                </Carousel>
+              </ImageBox>
+            </Col>
+            <Col md={6} xs={12}>
+              <Explain>
+                <ExplainTitle>PHA 금형 모니터링시스템</ExplainTitle>
+                <p style={{ textAlign: "left", margin: "30px" }}>
+                  실시간 모니터링시스템
+                  <br />
+                  총 개발 기간 : 2022.02 ~2022.8
+                  <br />
+                  내용 : 금형 센서로 감지되는 온도, 압력 등을 실시간 모니터링
+                  시스템 구축
+                  <br />
+                  담당업무 : 모니터링시스템의 프론트엔드 전체 페이지 개발,
+                  백엔드 개발은 서브개발로 주로 프론트엔드 페이지 개발을 담당함.
+                </p>
+                <hr style={{ textAlign: "left", margin: "30px" }} />
+                <p
+                  style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}
+                ></p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>Front-end : </span>
+                  <span>React, TypeScript, Mobx, Scss, Rechart, Nivochart</span>
+                </p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>Back-end : </span>
+                  <span>C# - asp.net, RestAPI</span>
+                </p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>DataBase : </span>
+                  MSSQL
+                </p>
+                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
+                  <span style={{ fontWeight: "bolder" }}>UI : </span>
+                  Figma
+                </p>
+              </Explain>
+            </Col>
+          </Row>
+        </div>
+        <br />
+        <hr style={{ color: "black", margin: "30px" }} />
+        <br />
+
+        <div
+          style={{
+            backgroundColor: " #e8e3df",
+            color: "black",
+            textAlign: "center",
+            borderRadius: "50px",
+          }}
+        >
+          <Row>
+            <Col md={6} xs={12}>
+              <ImageBox>
+                <Carousel
+                  valiant="dark"
+                  interval={null}
+                  controls={false}
+                  pause={false}
+                  fade
+                >
+                  <Carousel.Item>
                     <Styledimg src="/images/eatsfine.png" alt="" />
                   </Carousel.Item>
                   <Carousel.Item>
@@ -128,13 +273,14 @@ function Project() {
                 </p>
                 <hr style={{ textAlign: "left", margin: "30px" }} />
                 <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
-                <span style={{ fontWeight: "bolder" }}>도메인 : </span>
+                  <span style={{ fontWeight: "bolder" }}>도메인 : </span>
                   <span
                     onClick={() => {
                       window.open("https://eatsfine.site", "_blank");
                     }}
                   >
                     <Link>eatsfine.site</Link>
+                    <span> (EC2 프리티어 기간만료) </span>
                   </span>
                 </p>
                 <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
@@ -259,10 +405,7 @@ function Project() {
                   <span style={{ fontWeight: "bolder" }}>Front-end : </span>
                   <span>React, Styled-components, React-Bootstrap</span>
                 </p>
-                <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
-                  <span style={{ fontWeight: "bolder" }}>Back-end : </span>
-                  <span>Node.js, Express, MongoDB(Mongoose)</span>
-                </p>
+
                 <p style={{ textAlign: "left", margin: "0px 0px 10px 30px" }}>
                   <span style={{ fontWeight: "bolder" }}>Deployment : </span>
                   GitHub
@@ -321,7 +464,7 @@ function Project() {
                   <span style={{ fontWeight: "bolder" }}>Front-end : </span>
                   <span>Next.js</span>
                 </p>
-                <hr style={{margin:"30px"}}/>
+                <hr style={{ margin: "30px" }} />
                 <p style={{ textAlign: "left", margin: "30px" }}>
                   2. 바닐라 자바스크립트으로만 개발한 소비기록 관리 프로젝트
                   <br />
